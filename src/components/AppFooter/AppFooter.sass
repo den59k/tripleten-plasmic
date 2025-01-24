@@ -1,0 +1,44 @@
+.app-footer
+  height: 760px
+  padding-top: var(--blocks-padding)
+  padding-bottom: 40px
+  display: flex
+  flex-direction: column
+  box-sizing: border-box
+  
+  a
+    color: #918f8f
+    text-decoration: none
+    border-bottom: 1px solid transparent
+    transition: color 0.2s, border-color 0.2s
+    text-align: left
+
+    &:hover
+      color: #292928
+      border-color: #292928
+
+.app-footer__row
+  display: flex
+  gap: 24px
+  margin-bottom: 50px
+
+  &>div
+    flex: 1 1 50px
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    gap: 12px
+
+  .title
+    font-size: 20px
+    font-weight: 500
+    margin-bottom: 12px
+
+  @media(max-width: 600px)
+    flex-direction: column
+
+.app-footer__bottom-label
+  margin-top: auto
+  color: #918f8f
+  display: flex
+  gap: 24px

@@ -1,0 +1,19 @@
+@import typography
+@import variables
+  
+body
+  margin: 0
+  padding: 0
+  background-color: var(--background-color)
+  color: var(--text-color)
+
+button
+  cursor: pointer
+  outline: none
+
+.app-container>*:not(.full-width), .container
+  width: 1160px
+  margin: 0 auto
+
+  @media(max-width: 1280px)
+    width: 94vw

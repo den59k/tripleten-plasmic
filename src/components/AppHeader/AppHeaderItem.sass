@@ -1,0 +1,75 @@
+
+.app-header-item
+  background: none
+  font-size: 14px
+  border: none
+  position: relative
+  height: 32px
+  display: flex
+  align-items: center
+  text-decoration: none
+  color: var(--text-color)
+  padding: 0 12px
+  border-radius: 8px
+
+  svg
+    margin-right: -6px
+
+a.app-header-item:hover
+  background-color: rgba(0, 0, 0, 0.08)
+
+.app-header-item__menu
+  position: absolute
+  top: calc(100% + 12px)
+  background-color: var(--header-color)
+  padding: 8px
+  border-radius: 12px
+  box-shadow: 0px 1px 12px 2px rgba(36, 36, 36, 0.07)
+
+  &.v-enter-active, &.v-leave-active 
+    transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out
+  
+  &.v-enter-from, &.v-leave-to
+    pointer-events: none
+    opacity: 0
+    transform: translateY(-4px)
+
+.app-header-item__menu-item
+  height: 40px
+  border-radius: 10px
+  display: flex
+  align-items: center
+  text-decoration: none
+  text-align: left
+  color: var(--text-color)
+  padding-left: 16px
+  padding-right: 36px
+  white-space: nowrap
+  font-size: 16px
+
+  &:hover
+    background-color: rgba(0, 0, 0, 0.08)
+  
+.app-header-item__arrow-down
+  position: relative
+  &:before
+    content: ""
+    background-color: black
+    width: 18px
+    height: 18px
+    left: 3px
+    top: 3px
+    position: absolute
+    transform: scale(0)
+    transition: transform 0.08s
+    border-radius: 10px
+
+  svg
+    display: block
+
+.app-header-item.open .app-header-item__arrow-down
+  color: var(--header-color)
+  svg
+    transform: scale(0.8)
+  &:before
+    transform: scale(1)

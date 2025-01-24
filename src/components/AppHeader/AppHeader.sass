@@ -1,0 +1,53 @@
+.app-header-wrapper
+  height: 66px
+
+.app-header
+  display: flex
+  align-items: center
+  height: 48px
+  margin: 8px
+  padding: 0 16px
+  position: fixed
+  top: 0
+  right: 0
+  left: 0
+  gap: 12px
+  font-size: 14px
+  z-index: 1000
+
+.app-header__home-link
+  height: 24px
+  margin-right: 8px
+  img
+    display: block
+    margin-top: 2px
+    height: 22px
+
+.app-header__links-container
+  position: absolute
+  display: flex
+  justify-content: center
+  left: 150px
+  right: 150px
+
+  &.align-left
+    position: static
+
+  @media(max-width: 600px)
+    display: none
+
+.app-header__backing
+  background-color: var(--header-color)
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  z-index: -1
+  border-radius: 8px
+  box-shadow: 0px 1px 12px 2px rgba(36, 36, 36, 0.07)
+  &.transition
+    transition: opacity 0.2s
+
+  &.hide
+    opacity: 0
