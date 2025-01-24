@@ -15,6 +15,8 @@ export const PLASMIC = initPlasmicLoader({
 })
 
 PLASMIC.registerComponent(AppHeader, {
+  importPath: "./components/AppHeader/AppHeader",
+  isDefaultExport: true,
   name: 'AppHeader',
   props: {
     headerType: { type: 'choice', options: [ "landingPage", "contentPage" ] }
@@ -23,5 +25,7 @@ PLASMIC.registerComponent(AppHeader, {
 
 PLASMIC.registerComponent(AppFooter, {
   name: 'AppFooter',
+  importPath: "./components/AppFooter/AppFooter",
+  isDefaultExport: true,
   props: { }
 });
