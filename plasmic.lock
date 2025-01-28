@@ -1,0 +1,80 @@
+{
+  "projects": [
+    {
+      "projectId": "gmeH6XgPaBtkt51HunAo4g",
+      "version": "18.12.0",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "assetId": "gmeH6XgPaBtkt51HunAo4g",
+          "type": "projectCss",
+          "checksum": "1c02168c6b23256606111fdfdbb63549"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "mFK62F3op98dvDe8VXezui",
+      "version": "latest",
+      "dependencies": {
+        "gmeH6XgPaBtkt51HunAo4g": "18.12.0"
+      },
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "FKLbJ5p56AHI",
+          "checksum": "2bd0a59bea3e919151d66151e2026fe6"
+        },
+        {
+          "assetId": "mFK62F3op98dvDe8VXezui",
+          "type": "projectCss",
+          "checksum": "f621b4cca25b98856b3e9092b334899a"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "wXSwbakE6jQ4",
+          "checksum": "bc49a51dbf63e5be62e15e35380b186c"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "wXSwbakE6jQ4",
+          "checksum": "bc49a51dbf63e5be62e15e35380b186c"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "Hx0SS5wkFRtR",
+          "checksum": "add3cc54e971847d2459f92edb3a7eb8"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "Hx0SS5wkFRtR",
+          "checksum": "add3cc54e971847d2459f92edb3a7eb8"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "FNNn4HRF1uTs",
+          "checksum": "1884f4e11ee8ac221f3c34642c0296f7"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "FNNn4HRF1uTs",
+          "checksum": "1884f4e11ee8ac221f3c34642c0296f7"
+        },
+        {
+          "type": "icon",
+          "assetId": "ekxqDMM-fyMV",
+          "checksum": "8e71df15cde86aca648dfb355f96f1f8"
+        },
+        {
+          "type": "icon",
+          "assetId": "hcDH4ucVHG-0",
+          "checksum": "4370c9052e44a60010732d4fc73f06ef"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    }
+  ],
+  "cliVersion": "0.1.335"
+}

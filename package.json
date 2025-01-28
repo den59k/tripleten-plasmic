@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@plasmicapp/cli": "^0.1.335",
     "@plasmicapp/loader-react": "^1.0.373",
+    "@plasmicapp/react-web": "^0.2.361",
+    "@plasmicpkgs/react-aria": "^0.0.101",
     "classnames": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
