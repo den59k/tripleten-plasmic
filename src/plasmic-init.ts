@@ -1,6 +1,7 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-react";
 import AppHeader from "./components/AppHeader/AppHeader";
 import AppFooter from "./components/AppFooter/AppFooter";
+import Table from "./components/Table/Table";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
@@ -15,7 +16,7 @@ export const PLASMIC = initPlasmicLoader({
 })
 
 PLASMIC.registerComponent(AppHeader, {
-  importPath: "./src/components/AppHeader/AppHeader",
+  importPath: "/src/components/AppHeader/AppHeader",
   isDefaultExport: true,
   name: 'AppHeader',
   props: {
@@ -26,7 +27,21 @@ PLASMIC.registerComponent(AppHeader, {
 
 PLASMIC.registerComponent(AppFooter, {
   name: 'AppFooter',
-  importPath: "./src/components/AppFooter/AppFooter",
+  importPath: "/src/components/AppFooter/AppFooter",
   isDefaultExport: true,
   props: { }
 });
+
+PLASMIC.registerComponent(Table, {
+  name: "Table",
+  importPath: "/src/components/Table/Table",
+  isDefaultExport: true,
+  props: {
+    columns: { type: "array", itemType: { 
+      type: "object", 
+      fields: { name: { type: "string" } }, 
+      nameFunc: (item: any) => item.name } 
+    },
+    data: { type: "object" }
+  }
+})
