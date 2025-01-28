@@ -15,17 +15,18 @@ export const PLASMIC = initPlasmicLoader({
 })
 
 PLASMIC.registerComponent(AppHeader, {
-  importPath: "./components/AppHeader/AppHeader",
+  importPath: "./src/components/AppHeader/AppHeader",
   isDefaultExport: true,
   name: 'AppHeader',
   props: {
-    headerType: { type: 'choice', options: [ "landingPage", "contentPage" ] }
+    headerType: { type: 'choice', options: [ "landingPage", "contentPage" ] },
+    children: "slot"
   }
 });
 
 PLASMIC.registerComponent(AppFooter, {
   name: 'AppFooter',
-  importPath: "./components/AppFooter/AppFooter",
+  importPath: "./src/components/AppFooter/AppFooter",
   isDefaultExport: true,
   props: { }
 });

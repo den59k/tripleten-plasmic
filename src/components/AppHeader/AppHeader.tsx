@@ -1,16 +1,23 @@
 import cn from 'classnames'
-import { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import AppHeaderItem from './AppHeaderItem'
 import tripletenLogo from '../../assets/tripleten-logo.svg'
 import './AppHeader.sass'
 
 type Props = {
-  headerType: string
+  headerType: string,
+  children?: React.ReactNode
 }
 
-const AppHeader = ({ headerType }: Props) => {
+const AppHeader = ({ headerType, children }: Props) => {
 
   const [ scrolled, setScrolled ] = useState(false)
+  const [ transition, setTransition ] = useState(false)
+
+  useEffect(() => {
+    setTransition(true)
+  }, [])
+
   const items = useMemo(() => {
     if (headerType === 'contentPage') {
       return [
@@ -72,7 +79,12 @@ const AppHeader = ({ headerType }: Props) => {
               <a  key={index} className="app-header-item" href={item.to}>{ item.title }</a>
           )) }
         </div>
-        <div className={ cn("app-header__backing", !scrolled && "hide", false && "transition") }></div>
+        <div className="app-header__backing-wrapper">
+          <div className={ cn("app-header__backing", !scrolled && "hide", transition && "transition") }>
+            
+          </div>
+          {children}
+        </div>
       </header>
     </div>
   )
