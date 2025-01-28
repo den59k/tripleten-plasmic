@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation, useSearchPar
 import { useEffect, useState } from 'react';
 import { PLASMIC } from './plasmic-init';
 import './styles/global.sass'
+import Homepage from './components/Homepage';
 
 function AppRoot() {
   return (
@@ -17,7 +18,8 @@ function AppRoot() {
       <PlasmicRootProvider loader={PLASMIC}>
         <Router>
           <Routes>
-            <Route path="/" element={<CatchAllPage/>} />
+            <Route path="/" element={<Homepage/>} />
+            <Route path="/plasmic" element={<CatchAllPage/>} />
             <Route path="/plasmic-host" element={<PlasmicCanvasHost />} />
           </Routes>
         </Router>

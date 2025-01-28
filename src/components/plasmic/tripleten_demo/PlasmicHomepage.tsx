@@ -55,9 +55,9 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import AppHeader from "../../../../components/AppHeader/AppHeader"; // plasmic-import: nwziLnqXxLEw/codeComponent
+import AppHeader from "../../../components/AppHeader/AppHeader"; // plasmic-import: nwziLnqXxLEw/codeComponent
 import Button from "../../Button"; // plasmic-import: FNNn4HRF1uTs/component
-import AppFooter from "../../../../components/AppFooter/AppFooter"; // plasmic-import: rp8MXVy3o0fv/codeComponent
+import AppFooter from "../../../components/AppFooter/AppFooter"; // plasmic-import: rp8MXVy3o0fv/codeComponent
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
