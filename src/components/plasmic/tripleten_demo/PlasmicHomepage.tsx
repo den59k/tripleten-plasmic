@@ -192,27 +192,12 @@ function PlasmicHomepage__RenderFunc(props: {
             className={classNames(
               projectcss.all,
               projectcss.__wab_text,
-              sty.text__vil5H
+              sty.text___94QUf
             )}
           >
-            <React.Fragment>
-              <React.Fragment>{""}</React.Fragment>
-              {
-                <li
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.li,
-                    projectcss.__wab_text,
-                    sty.li__y5Kpv
-                  )}
-                >
-                  {
-                    "Our mission is to create and develop leading bootcamp programs worldwide for switching careers to tech. We help our students change their lives and build careers with programs that enable beginners from all backgrounds to be successful. We adapt our curriculums to how our students learn, so they can feel fully-supported when making their big leaps.\r\nOur objectives are to:\r"
-                  }
-                </li>
-              }
-              <React.Fragment>{""}</React.Fragment>
-            </React.Fragment>
+            {
+              "Our mission is to create and develop leading bootcamp programs worldwide for switching careers to tech. We help our students change their lives and build careers with programs that enable beginners from all backgrounds to be successful. We adapt our curriculums to how our students learn, so they can feel fully-supported when making their big leaps.\r\nOur objectives are to:\r"
+            }
           </div>
           <div
             className={classNames(
@@ -462,7 +447,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "\r\nTransmit any material that is abusive, harassing, tortious, defamatory, vulgar, pornographic, obscene, libelous, invasive of another's privacy, hateful or racially, ethnically, or otherwise objectionable;"
+                      "Transmit any material that is abusive, harassing, tortious, defamatory, vulgar, pornographic, obscene, libelous, invasive of another's privacy, hateful or racially, ethnically, or otherwise objectionable;"
                     }
                   </li>
                   <li
@@ -473,14 +458,14 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.li__ljQ6M
                     )}
                   >
-                    {"\r\nStalk, harass, bully, or harm another individual;\r"}
+                    {"Stalk, harass, bully, or harm another individual;\r"}
                   </li>
                   <li
                     className={classNames(
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__ff9YL
+                      sty.li___8Pv4S
                     )}
                   >
                     {
@@ -492,11 +477,11 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__o8NlB
+                      sty.li__qxsJw
                     )}
                   >
                     {
-                      "\r\nKnowingly transmit any material that contains adware, malware, spyware, software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment;\r"
+                      "Knowingly transmit any material that contains adware, malware, spyware, software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment;\r"
                     }
                   </li>
                   <li
@@ -504,7 +489,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__imJoe
+                      sty.li___4Wa
                     )}
                   >
                     {
@@ -516,11 +501,11 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__lzgeE
+                      sty.li__bghjv
                     )}
                   >
                     {
-                      "\r\nImpersonate any person or entity, or otherwise misrepresent your affiliation with a person or entity;"
+                      "Impersonate any person or entity, or otherwise misrepresent your affiliation with a person or entity;"
                     }
                   </li>
                   <li
@@ -532,7 +517,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "\r\nInterfere with or disrupt the TripleTen Service or servers or networks connected to the TripleTen Service, or disobey any requirements, procedures, policies, or regulations of networks connected to the TripleTen Service; "
+                      "Interfere with or disrupt the TripleTen Service or servers or networks connected to the TripleTen Service, or disobey any requirements, procedures, policies, or regulations of networks connected to the TripleTen Service; "
                     }
                   </li>
                   <li
@@ -540,7 +525,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__qxJx
+                      sty.li__ev56Q
                     )}
                   >
                     {
@@ -836,7 +821,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Code in python syntax including built-in data structures (Strings, Lists, Tuples, and Dictionaries).\r"
+                      "Code in python syntax including built-in data structures (Strings, Lists, Tuples, and Dictionaries)."
                     }
                   </li>
                   <li
@@ -844,7 +829,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__ft4Tc
+                      sty.li__p5WNw
                     )}
                   >
                     {"Use pandas library to import and clean data.\r"}
@@ -854,7 +839,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__eHOip
+                      sty.li__jlFiI
                     )}
                   >
                     {
@@ -870,7 +855,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "\r\nConduct appropriate statistical data analysis such as descriptive statistics and hypothesis testing\r"
+                      "Conduct appropriate statistical data analysis such as descriptive statistics and hypothesis testing"
                     }
                   </li>
                   <li
@@ -878,7 +863,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__iwUzb
+                      sty.li__iGvFl
                     )}
                   >
                     {
@@ -894,7 +879,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "\r\nWrite SQL queries, including subqueries and regular expressions, to retrieve and manipulate data.\r"
+                      "Write SQL queries, including subqueries and regular expressions, to retrieve and manipulate data.\r"
                     }
                   </li>
                 </ul>
@@ -973,7 +958,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "\r\nCompare models, improve performance through parameter tuning, and select the best approach for a task."
+                      "Compare models, improve performance through parameter tuning, and select the best approach for a task."
                     }
                   </li>
                   <li
@@ -1144,11 +1129,11 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.all,
                       projectcss.li,
                       projectcss.__wab_text,
-                      sty.li__eqlgz
+                      sty.li__gNdcy
                     )}
                   >
                     {
-                      "\r\n\r\nYou were enrolled at an institution or a location of the institution within the 120 day period before the closure of the institution or location of the institution, or were enrolled in an educational program within the 120 day period before the program was discontinued.\r"
+                      "You were enrolled at an institution or a location of the institution within the 120 day period before the closure of the institution or location of the institution, or were enrolled in an educational program within the 120 day period before the program was discontinued.\r"
                     }
                   </li>
                   <li
