@@ -55,9 +55,10 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import AppHeader from "../../../components/AppHeader/AppHeader"; // plasmic-import: nwziLnqXxLEw/codeComponent
+import AppHeader from "/src/components/AppHeader/AppHeader"; // plasmic-import: nwziLnqXxLEw/codeComponent
 import Button from "../../Button"; // plasmic-import: FNNn4HRF1uTs/component
-import AppFooter from "../../../components/AppFooter/AppFooter"; // plasmic-import: rp8MXVy3o0fv/codeComponent
+import Table from "/src/components/Table/Table"; // plasmic-import: uoGyaDZ5cXdF/codeComponent
+import AppFooter from "/src/components/AppFooter/AppFooter"; // plasmic-import: rp8MXVy3o0fv/codeComponent
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -84,6 +85,7 @@ export type PlasmicHomepage__OverridesType = {
   button?: Flex__<typeof Button>;
   h1?: Flex__<"h1">;
   link?: Flex__<"a">;
+  table?: Flex__<typeof Table>;
   appFooter?: Flex__<typeof AppFooter>;
 };
 
@@ -599,6 +601,115 @@ function PlasmicHomepage__RenderFunc(props: {
           >
             {"All fees are subject to change without notice."}
           </div>
+          <Table
+            data-plasmic-name={"table"}
+            data-plasmic-override={overrides.table}
+            className={classNames("__wab_instance", sty.table)}
+            columns={(() => {
+              const __composite = [
+                { name: null },
+                { name: null },
+                { name: null },
+                { name: null },
+                { name: null },
+                { name: null },
+                { name: null }
+              ];
+              __composite["0"]["name"] = ``;
+              __composite["1"]["name"] = "Software Engineering";
+              __composite["2"]["name"] = "Data Science";
+              __composite["3"]["name"] = "QA Engineering";
+              __composite["4"]["name"] = "BI Analytics";
+              __composite["5"]["name"] = "Cybersecurity Analyst";
+              __composite["6"]["name"] = "UX/UI Design";
+              return __composite;
+            })()}
+            data={[
+              [
+                "Standard Tuition",
+                "$14,570",
+                "$14,570",
+                "$7,410",
+                "$9,040",
+                "$14,570",
+                "$8,200"
+              ],
+              ["Payment options:", "", "", "", "", "", ""],
+              [
+                "Payment upon Enrollment (discount, 100% charged upfront)",
+                "$11,350",
+                "$11,350",
+                "$5,750",
+                "$7,050",
+                "$11,350",
+                "$6,450"
+              ],
+              [
+                "TripleTen Installments",
+                "Choice of:",
+                "Choice of:",
+                "Choice of:",
+                "Choice of:",
+                "Choice of:",
+                "Choice of:"
+              ],
+              [
+                "",
+                "$700 upfront deposit and 3x $3,920 ($12,460 in total)",
+                "$700 upfront deposit and 3x $3,920 ($12,460 in total)",
+                "$450 upfront deposit and 3x $1,895 ($6,135 in total)",
+                "$500 upfront deposit and 3x $2,325 ($7,475 in total)",
+                "$700 upfront deposit and 3x $3,920 ($12,460 in total)",
+                "$500 upfront deposit and 3x $2,125 ($6,875 in total)"
+              ],
+              [
+                "",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$490 upfront deposit 5x $1,165 ($6,315 in total)",
+                "$550 upfront deposit and 5x $1,440 ($7,750 in total)",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$550 upfront deposit and 5x $1,315 ($7,125 in total)"
+              ],
+              [
+                "",
+                "$820 upfront deposit and 9x $1,395 ($13,375 in total)",
+                "$820 upfront deposit and 9x $1,395 ($13,375 in total)",
+                "$820 upfront deposit and 9x $695 ($6,785 in total)",
+                "$590 upfront deposit and 9x $855 ($8,285 in total)",
+                "$820 upfront deposit and 9x $1,395 ($13,375 in total)",
+                "$590 upfront deposit and 9x $780 ($7,610 in total)"
+              ],
+              [
+                "",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$490 upfront deposit 5x $1,165 ($6,315 in total)",
+                "$550 upfront deposit and 5x $1,440 ($7,750 in total)",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$550 upfront deposit and 5x $1,315 ($7,125 in total)"
+              ],
+              [
+                "",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$490 upfront deposit 5x $1,165 ($6,315 in total)",
+                "$550 upfront deposit and 5x $1,440 ($7,750 in total)",
+                "$770 upfront deposit and 5x $2,440 ($12,970 in total)",
+                "$550 upfront deposit and 5x $1,315 ($7,125 in total)"
+              ],
+              [
+                "",
+                "$1,100 upfront deposit and 36x $374 ($14,570 in total)",
+                "$1,100 upfront deposit and 36x $374 ($14,570 in total)",
+                "",
+                "",
+                "$$1,100 upfront deposit and 36x $374 ($14,570 in total)",
+                ""
+              ]
+            ]}
+          />
+
           <AppFooter
             data-plasmic-name={"appFooter"}
             data-plasmic-override={overrides.appFooter}
@@ -611,11 +722,12 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "appHeader", "button", "h1", "link", "appFooter"],
+  root: ["root", "appHeader", "button", "h1", "link", "table", "appFooter"],
   appHeader: ["appHeader", "button"],
   button: ["button"],
   h1: ["h1"],
   link: ["link"],
+  table: ["table"],
   appFooter: ["appFooter"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -627,6 +739,7 @@ type NodeDefaultElementType = {
   button: typeof Button;
   h1: "h1";
   link: "a";
+  table: typeof Table;
   appFooter: typeof AppFooter;
 };
 
@@ -694,6 +807,7 @@ export const PlasmicHomepage = Object.assign(
     button: makeNodeComponent("button"),
     h1: makeNodeComponent("h1"),
     link: makeNodeComponent("link"),
+    table: makeNodeComponent("table"),
     appFooter: makeNodeComponent("appFooter"),
 
     // Metadata about props expected for PlasmicHomepage

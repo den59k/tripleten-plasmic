@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "inlined",
@@ -227,7 +227,8 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "mFK62F3op98dvDe8VXezui",
@@ -310,13 +311,19 @@
           "id": "nwziLnqXxLEw",
           "name": "AppHeader",
           "displayName": "AppHeader",
-          "componentImportPath": "./components/AppHeader/AppHeader"
+          "componentImportPath": "/src/components/AppHeader/AppHeader"
         },
         {
           "id": "rp8MXVy3o0fv",
           "name": "AppFooter",
           "displayName": "AppFooter",
-          "componentImportPath": "./components/AppFooter/AppFooter"
+          "componentImportPath": "/src/components/AppFooter/AppFooter"
+        },
+        {
+          "id": "uoGyaDZ5cXdF",
+          "name": "Table",
+          "displayName": "Table",
+          "componentImportPath": "/src/components/Table/Table"
         }
       ],
       "customFunctions": []
