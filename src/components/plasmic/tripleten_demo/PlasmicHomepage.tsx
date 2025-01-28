@@ -86,6 +86,8 @@ export type PlasmicHomepage__OverridesType = {
   h1?: Flex__<"h1">;
   link?: Flex__<"a">;
   table?: Flex__<typeof Table>;
+  h3?: Flex__<"h3">;
+  ol?: Flex__<"ol">;
   appFooter?: Flex__<typeof AppFooter>;
 };
 
@@ -710,6 +712,521 @@ function PlasmicHomepage__RenderFunc(props: {
             ]}
           />
 
+          <h5
+            className={classNames(
+              projectcss.all,
+              projectcss.h5,
+              projectcss.__wab_text,
+              sty.h5__jZwpc
+            )}
+          >
+            {"Other Fees"}
+          </h5>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__dWiTk
+            )}
+          >
+            {
+              "California Residents Only STRF Fee $0 per $1,000 of rounded institutional charges"
+            }
+          </div>
+          <h5
+            className={classNames(
+              projectcss.all,
+              projectcss.h5,
+              projectcss.__wab_text,
+              sty.h5___1CQCm
+            )}
+          >
+            {"Payment: Billing Schedule, Processing, & Other Options"}
+          </h5>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__ofb3F
+            )}
+          >
+            {
+              "Students are responsible for paying the then-current tuition fees for the programs taken. Students pay the applicable tuition fees in advance using payment mechanisms the institution may make available. All charges and payments shall be in U.S. Dollars unless otherwise agreed by TripleTen. You may pay your tuition fee fully in advance or opt for recurring monthly payments. 3rd party loan options are also available to students to select if they wish. If you finance TripleTen Service through a third-party loan or financial services provider, the contracts with those providers may prevail over these Terms on payment, refund, and cancellation provisions. You should independently and voluntarily decide whether you wish to finance TripleTen Service and contract with such providers. TripleTen has no control over your agreements with those providers. Students are encouraged to explore all options and select the plan most appropriate to their needs.\r\nStudents who choose a payment option other than Standard Tuition, or who chose to obtain a loan or enter into an Income Share Agreement with a 3rd party lender, understand and acknowledge that additional fees and interest may be charged depending on their selection, which will increase the total amount paid for the program. If a student obtains a loan to pay for an educational program, the student will have the responsibility to repay the full amount of the loan, plus interest, less the amount of any available refund, if any. By selecting recurring monthly payments, you expressly authorize TripleTen to automatically charge the applicable recurring monthly fee to your payment method. Your first monthly payment will be charged to your payment method upon your purchase date. Your second monthly payment will be charged to your payment method in 26 days from the Program start date. For each subsequent month, the monthly fee will automatically be charged in 30 calendar days following the date of your previous payment.For the avoidance of doubt, regardless of your payment method, payment schedule, advancement in the program, suspension, or your consumption of TripleTen Service, you are responsible for the payment of your tuition fee."
+            }
+          </div>
+          <h2
+            className={classNames(
+              projectcss.all,
+              projectcss.h2,
+              projectcss.__wab_text,
+              sty.h2___8FcF
+            )}
+          >
+            {"Description of Programs"}
+          </h2>
+          <h3
+            data-plasmic-name={"h3"}
+            data-plasmic-override={overrides.h3}
+            className={classNames(
+              projectcss.all,
+              projectcss.h3,
+              projectcss.__wab_text,
+              sty.h3
+            )}
+          >
+            {"Data Science Program | 3 modules | 640 hours | 32 weeks\r"}
+          </h3>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__syeVc
+            )}
+          >
+            {
+              "Students are expected to engage with the material at least 20 hours per week to maintain satisfactory progress through the course.\r"
+            }
+          </div>
+          <h5
+            className={classNames(
+              projectcss.all,
+              projectcss.h5,
+              projectcss.__wab_text,
+              sty.h5__wX57M
+            )}
+          >
+            {
+              "Module 1: Python and Software Engineering for Data Science - 14 weeks (280 hours)\r"
+            }
+          </h5>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__rSKe
+            )}
+          >
+            {
+              "This module lays the foundation for a career in data by teaching Python, a versatile programming language widely used in data applications, alongside essential concepts in statistics and software engineering. The focus is on practical applications of Python for data analysis, visualization, and statistical exploration.\r\nLearning Outcomes:\r"
+            }
+          </div>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__av4Q
+            )}
+          >
+            <React.Fragment>
+              <React.Fragment>{""}</React.Fragment>
+              {
+                <ul
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.ul,
+                    sty.ul__jI34O
+                  )}
+                >
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li___8WhB
+                    )}
+                  >
+                    {
+                      "Code in python syntax including built-in data structures (Strings, Lists, Tuples, and Dictionaries).\r"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__ft4Tc
+                    )}
+                  >
+                    {"Use pandas library to import and clean data.\r"}
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__eHOip
+                    )}
+                  >
+                    {
+                      "Generate visualizations to interpret data and present findings effectively."
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__yoX0W
+                    )}
+                  >
+                    {
+                      "\r\nConduct appropriate statistical data analysis such as descriptive statistics and hypothesis testing\r"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__iwUzb
+                    )}
+                  >
+                    {
+                      "Use software development tools such as command line and git"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__bywSl
+                    )}
+                  >
+                    {
+                      "\r\nWrite SQL queries, including subqueries and regular expressions, to retrieve and manipulate data.\r"
+                    }
+                  </li>
+                </ul>
+              }
+              <React.Fragment>{""}</React.Fragment>
+            </React.Fragment>
+          </div>
+          <h5
+            className={classNames(
+              projectcss.all,
+              projectcss.h5,
+              projectcss.__wab_text,
+              sty.h5__jjaoI
+            )}
+          >
+            {"Module 2: Machine Learning - 8 weeks (160 hours)\r"}
+          </h5>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__y3TNr
+            )}
+          >
+            {
+              "Machine Learning is one of the most transformative aspects of Data Science, enabling computers to predict and make inferences about the real world. This module builds on your knowledge of statistics, Python, and software engineering to create intelligent systems. You'll explore supervised learning techniques, learn to evaluate models, and apply machine learning in real-world business contexts.\r\nLearning Outcomes:\r"
+            }
+          </div>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text___11HzK
+            )}
+          >
+            <React.Fragment>
+              <React.Fragment>{""}</React.Fragment>
+              {
+                <ul
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.ul,
+                    sty.ul__fm4Oz
+                  )}
+                >
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__ragjD
+                    )}
+                  >
+                    {
+                      "Identify key machine learning concepts, including classification, regression, and the role of models and algorithms.\r\n"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__pvfxj
+                    )}
+                  >
+                    {
+                      "Use scikit-learn to build, train, and evaluate machine learning models."
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__zjs05
+                    )}
+                  >
+                    {
+                      "\r\nCompare models, improve performance through parameter tuning, and select the best approach for a task."
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li___3J6IB
+                    )}
+                  >
+                    {
+                      "Apply machine learning to projects like real estate pricing and mobile plan recommendation."
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__d3GYt
+                    )}
+                  >
+                    {
+                      "Demonstrate mastery of evaluation metrics for classification (precision, recall, F1 score, AUC-ROC) and regression (MAE, R\u00b2)."
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__lEFmc
+                    )}
+                  >
+                    {
+                      "\r\nRelate machine learning metrics to business outcomes, calculating profit, margins, and conversion rates."
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li___2TPPi
+                    )}
+                  >
+                    {"Analyze A/B test results using bootstrapping techniques."}
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__oXTl
+                    )}
+                  >
+                    {
+                      "Explain data labeling processes and the role of assessors in supervised learning.\r"
+                    }
+                  </li>
+                </ul>
+              }
+              <React.Fragment>{""}</React.Fragment>
+            </React.Fragment>
+          </div>
+          <h2
+            className={classNames(
+              projectcss.all,
+              projectcss.h2,
+              projectcss.__wab_text,
+              sty.h2__mx8Yq
+            )}
+          >
+            {"Required Disclosures applicable by state of student residence\r"}
+          </h2>
+          <h5
+            className={classNames(
+              projectcss.all,
+              projectcss.h5,
+              projectcss.__wab_text,
+              sty.h5__m8V4
+            )}
+          >
+            {"WYOMING"}
+          </h5>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__befkT
+            )}
+          >
+            {
+              "If the student does not feel that the school has adequately addressed a complaint or concern, the student may consider contacting the Wyoming Department of Education at: 2300 Capitol Avenue, Hathaway Building, 2nd Floor, Cheyenne, WY 82002-0050; (307) 777-7690; http://edu.wyoming.gov/ContactUs.aspx.\r\nIf the student does not feel that the school has adequately addressed a complaint or concern, the student may consider contacting the Wyoming Attorney General at Attorney General's Office, Consumer Protection Unit, 123 Capitol Building, 200 W. 24th Street, Cheyenne, WY 82002; (307) 777-7841; TDD: (307) 777-5351; http://attorneygeneral.state.wy.us.\r"
+            }
+          </div>
+          <h5
+            className={classNames(
+              projectcss.all,
+              projectcss.h5,
+              projectcss.__wab_text,
+              sty.h5__gcUsx
+            )}
+          >
+            {"CALIFORNIA"}
+          </h5>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__wtGqB
+            )}
+          >
+            {
+              "Any questions a student may have regarding this catalog that have not been satisfactorily answered by the institution may be directed to the Bureau for Private Postsecondary Education at 1747 North Market, Suite 225 Sacramento, CA 95834, P.O. Box 980818, West Sacramento, CA 95798, www.bppe.ca.gov, toll free telephone number (888) 370-7589 Fax (916) 263-1897.\r\nA student or any member of the public may file a complaint about this institution with the Bureau for Private Postsecondary Education by calling (888) 370-7589 or by completing a complaint form, which can be obtained on the bureau\u2019s Internet Web site www.bppe.ca.gov.\r"
+            }
+          </div>
+          <h5
+            className={classNames(
+              projectcss.all,
+              projectcss.h5,
+              projectcss.__wab_text,
+              sty.h5__z1QVz
+            )}
+          >
+            {"Student Tuition Recovery Fund Disclosures."}
+          </h5>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__vZUmq
+            )}
+          >
+            {
+              "\u201cThe State of California established the Student Tuition Recovery Fund (STRF) to relieve or mitigate economic loss suffered by a student in an educational program at a qualifying institution, who is or was a California resident while enrolled, or was enrolled in a residency program, if the student enrolled in the institution, prepaid tuition, and suffered an economic loss. Unless relieved of the obligation to do so, you must pay the state-imposed assessment for the STRF, or it must be paid on your behalf, if you are a student in an educational program, who is a California resident, or are enrolled in a residency program, and prepay all or part of your tuition.\r\nYou are not eligible for protection from the STRF and you are not required to pay the STRF assessment, if you are not a California resident, or are not enrolled in a residency program.\u201d\r\n\u201cIt is important that you keep copies of your enrollment agreement, financial aid documents, receipts, or any other information that documents the amount paid to the school. Questions regarding the STRF may be directed to the Bureau for Private Postsecondary Education, 1747 N. Market Blvd., Suite 225, Sacramento, CA 95834, (916) 574-8900 or (888) 370-7589.\r\nTo be eligible for STRF, you must be a California resident or are enrolled in a residency program, prepaid tuition, paid or deemed to have paid the STRF assessment, and suffered an economic loss as a result of any of the following:"
+            }
+          </div>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__g73
+            )}
+          >
+            <React.Fragment>
+              <React.Fragment>{""}</React.Fragment>
+              {
+                <ol
+                  data-plasmic-name={"ol"}
+                  data-plasmic-override={overrides.ol}
+                  className={classNames(projectcss.all, projectcss.ol, sty.ol)}
+                >
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__jfq01
+                    )}
+                  >
+                    {
+                      "The institution, a location of the institution, or an educational program offered by the institution was closed or discontinued, and you did not choose to participate in a teach-out plan approved by the Bureau or did not complete a chosen teach-out plan approved by the Bureau."
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__eqlgz
+                    )}
+                  >
+                    {
+                      "\r\n\r\nYou were enrolled at an institution or a location of the institution within the 120 day period before the closure of the institution or location of the institution, or were enrolled in an educational program within the 120 day period before the program was discontinued.\r"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__dRxqj
+                    )}
+                  >
+                    {
+                      "You were enrolled at an institution or a location of the institution more than 120 days before the closure of the institution or location of the institution, in an educational program offered by the institution as to which the Bureau determined there was a significant decline in the quality or value of the program more than 120 days before closure.\r"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__wbNqT
+                    )}
+                  >
+                    {
+                      "The institution has been ordered to pay a refund by the Bureau but has failed to do so.\r"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li___5TiYu
+                    )}
+                  >
+                    {
+                      "The institution has failed to pay or reimburse loan proceeds under a federal student loan program as required by law, or has failed to pay or reimburse proceeds received by the institution in excess of tuition and other costs.\r"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__whYe
+                    )}
+                  >
+                    {
+                      "You have been awarded restitution, a refund, or other monetary award by an arbitrator or court, based on a violation of this chapter by an institution or representative of an institution, but have been unable to collect the award from the institution.\n"
+                    }
+                  </li>
+                  <li
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.li,
+                      projectcss.__wab_text,
+                      sty.li__eJv8W
+                    )}
+                  >
+                    {
+                      "You sought legal counsel that resulted in the cancellation of one or more of your student loans and have an invoice for services rendered and evidence of the cancellation of the student loan or loans.\r"
+                    }
+                  </li>
+                </ol>
+              }
+              <React.Fragment>{""}</React.Fragment>
+            </React.Fragment>
+          </div>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__e6Xsh
+            )}
+          >
+            {
+              "To qualify for STRF reimbursement, the application must be received within four (4) years from the date of the action or event that made the student eligible for recovery from STRF.\r\nA student whose loan is revived by a loan holder or debt collector after a period of noncollection may, at any time, file a written application for recovery from STRF for the debt that would have otherwise been eligible for recovery. If it has been more than four (4) years since the action or event that made the student eligible, the student must have filed a written application for recovery within the original four (4) year period, unless the period has been extended by another act of law.\r\nHowever, no claim can be paid to any student without a social security number or a taxpayer identification number.\r"
+            }
+          </div>
           <AppFooter
             data-plasmic-name={"appFooter"}
             data-plasmic-override={overrides.appFooter}
@@ -722,12 +1239,24 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "appHeader", "button", "h1", "link", "table", "appFooter"],
+  root: [
+    "root",
+    "appHeader",
+    "button",
+    "h1",
+    "link",
+    "table",
+    "h3",
+    "ol",
+    "appFooter"
+  ],
   appHeader: ["appHeader", "button"],
   button: ["button"],
   h1: ["h1"],
   link: ["link"],
   table: ["table"],
+  h3: ["h3"],
+  ol: ["ol"],
   appFooter: ["appFooter"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -740,6 +1269,8 @@ type NodeDefaultElementType = {
   h1: "h1";
   link: "a";
   table: typeof Table;
+  h3: "h3";
+  ol: "ol";
   appFooter: typeof AppFooter;
 };
 
@@ -808,6 +1339,8 @@ export const PlasmicHomepage = Object.assign(
     h1: makeNodeComponent("h1"),
     link: makeNodeComponent("link"),
     table: makeNodeComponent("table"),
+    h3: makeNodeComponent("h3"),
+    ol: makeNodeComponent("ol"),
     appFooter: makeNodeComponent("appFooter"),
 
     // Metadata about props expected for PlasmicHomepage
